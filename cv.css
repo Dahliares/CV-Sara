@@ -1,0 +1,60 @@
+@import url('https://fonts.cdnfonts.com/css/montserrat');
+
+:root{
+
+    --font-color : rgb(81, 16, 194);
+}
+
+body{
+
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(222, 209, 245);
+    padding-top: 80px;
+
+}
+
+html{
+
+    scroll-behavior: smooth;
+}
+
+#profile, #skills, #resum, #porto, #contact{
+
+    scroll-margin-top: 80px;
+}
+
+a{
+
+    text-decoration: none;
+    color: var(--font-color);
+    
+}
+
+.horizontal-padding{
+
+    padding-left: 25px;
+    padding-right: 25px;
+
+} 
+
+.vertical-padding{
+
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+@media (min-width:990px){
+
+    .horizontal-padding{
+
+        padding-left: 50px;
+        padding-right: 50px;
+    
+    } 
+    
+    .vertical-padding{
+    
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+}
