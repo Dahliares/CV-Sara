@@ -46,6 +46,11 @@
     margin: 25px 0;
 }
 
+.skills-skill:hover{
+
+    color: slateblue;
+}
+
 @media (min-width:990) {
     .skills-title {
 

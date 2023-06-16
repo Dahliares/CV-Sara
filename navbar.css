@@ -48,7 +48,12 @@
     width: 30px;
     padding: 0;
     
+    border-radius: 50%;  
 
+}
+
+.selected-lang{
+    box-shadow: 0 3px 15px cyan;
 }
 
 /*MENU*/
