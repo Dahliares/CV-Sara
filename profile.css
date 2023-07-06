@@ -94,6 +94,29 @@
     filter: brightness(130%);
 }
 
+.btn-descarga{
+
+    background-color: darkslateblue;
+    border: none;
+    color: aliceblue;
+    border-radius: 30px 0 30px 0;
+    padding: 10px 30px;
+    margin-top: 10px;
+    margin-left: 50px;
+    border: solid 2px black;
+
+    
+}
+
+
+ .btn-descarga:hover{
+
+    background-color: aliceblue;
+    border: solid 2px darkorchid;
+    color: black;
+
+ }
+
 @media(min-width: 990px){
 
     .profile-img{
@@ -170,7 +193,7 @@
         text-align:justify;
     }
 
-
+    
 
     
 
