@@ -20,7 +20,7 @@
     text-transform: uppercase;
 }
 
-.skills-list {
+.skills-list, .skills-list-lan, .skills-list-soft {
 
     list-style: none;
     padding: 0;
@@ -30,25 +30,72 @@
 }
 
 .skills-skill {
-    font-size: 20px;
-    font-weight: 500;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     box-shadow: 0 4px 10px darkslateblue;
-    padding: 0.5em 0.7em;
-    border-radius: 42px;
+    padding: 5px;
+    border-radius: 10px;
     margin: 10px;
     background-color: aliceblue;
     text-align: center;
-
+    align-items: center;
+    width: 80px;
+    border: solid grey 2px;
 }
+
+.skills-skill img{
+    width:  70px;
+    max-height: 150px;
+    
+}
+
+.skills-skill div{
+   font-size: 15px;
+    font-weight: 500;
+    padding: 2px;
+    margin-top: 2px;
+   
+    
+}
+
+h3{
+    text-align: center;
+}
+
+.skills-skill-lan, .skills-skill-soft{
+
+              
+    box-shadow: 0 4px 10px darkslateblue;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: aliceblue;
+    text-align: center;
+    
+    
+    
+    
+    
+}
+.skills-skill-lan img{
+    width: 25px;
+    margin-bottom: 2px;
+} 
+
+
 
 .skills-section{
 
     margin: 25px 0;
 }
 
-.skills-skill:hover{
+.skills-skill:hover,
+.skills-skill-lan:hover{
 
-    color: slateblue;
+    color: lightseagreen;
+    background-color: black;
 }
 
 @media (min-width:990) {
@@ -57,7 +104,7 @@
         font-size: 60px;
     }
 
-    .skills-list {
+    .skills-list{
 
         list-style: none;
         padding: 0;
@@ -69,8 +116,12 @@
     .skills-skill {
         font-size: 30px;
         margin: 20px;
-
     }
+
+    
+
+    
+
 
     .skills-subtitle{
 
